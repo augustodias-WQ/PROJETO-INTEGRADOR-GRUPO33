@@ -228,7 +228,7 @@ requirements.txt
 * Pandas
 * SQLite
 * Kaggle Dataset
-* Streamlit ou Power BI
+* Streamlit
 * GitHub
 
 ---
