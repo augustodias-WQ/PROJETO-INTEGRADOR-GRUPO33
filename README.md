@@ -14,7 +14,6 @@ O projeto utiliza a base **Brazilian E-Commerce Public Dataset by Olist**, compo
 * **Juliana Alves Cabral**
 * **Luis Augusto de Sousa Dias**
 * **Guilherme Silva Alves do Nascimento**
-* **Pedro Henrique Ferraz Ferreira**
 * **Matheus de Oliveira Temistocles**
 
 
