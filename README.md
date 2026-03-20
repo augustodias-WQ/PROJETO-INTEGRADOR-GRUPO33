@@ -185,17 +185,17 @@ projeto-integrador-lowcode/
 
 README.md
 
-*data/
+* data/
 │ dados brutos do Kaggle
 │ olist.db
 │ dados tratados após ETL
 
-*etl/
+* etl/
 |extract.py
 |transform.py
 |load.py
 
-*app/
+* app/
 |dashboard
  
  
