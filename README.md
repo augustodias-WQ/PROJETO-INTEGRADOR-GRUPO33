@@ -7,7 +7,7 @@ Análise de desempenho de vendas em um e-commerce utilizando técnicas de **Ciê
 
 O projeto utiliza a base **Brazilian E-Commerce Public Dataset by Olist**, composta por dados reais de vendas realizadas em marketplaces brasileiros entre **2016 e 2018**.
 
----
+
 
 #  1️ Integrantes do Grupo
 
@@ -17,7 +17,7 @@ O projeto utiliza a base **Brazilian E-Commerce Public Dataset by Olist**, compo
 * **Pedro Henrique Ferraz Ferreira**
 * **Matheus de Oliveira Temistocles**
 
----
+
 
 #  2️ Definição da Base de Dados
 
@@ -48,7 +48,7 @@ O conjunto de dados contém informações detalhadas sobre o processo de compra 
 
 Essas informações permitem analisar **comportamento de consumo, desempenho de vendas e eficiência logística**.
 
----
+
 
 #  3️ Objetivo da Análise
 
@@ -65,7 +65,7 @@ A análise buscará identificar:
 
 O resultado final será um **dashboard interativo** que permitirá visualizar as principais métricas do negócio de forma clara e acessível.
 
----
+
 
 #  4️ Planejamento das Tarefas
 
@@ -91,20 +91,20 @@ Responsável pelo **planejamento do dashboard**, definindo as métricas, indicad
 
 Responsável pela **organização do README e planejamento geral das tarefas**, garantindo a documentação adequada do projeto.
 
----
+
 
 #  5️ Cronograma de Desenvolvimento
 
-| Etapa    | Atividade                           |
-| -------- | ----------------------------------- |
-| Semana 1 | Definição da base de dados          |
-| Semana 2 | Planejamento do processo de ETL     |
-| Semana 3 | Tratamento e integração dos dados   |
-| Semana 4 | Desenvolvimento do dashboard        |
-| Semana 5 | Análise dos resultados              |
-| Semana 6 | Ajustes finais e entrega do projeto |
+ Etapa     Atividade                           
+ 
+ Semana 1  Definição da base de dados          
+ Semana 2  Planejamento do processo de ETL     
+ Semana 3  Tratamento e integração dos dados   
+ Semana 4  Desenvolvimento do dashboard        
+ Semana 5  Análise dos resultados              
+ Semana 6  Ajustes finais e entrega do projeto 
 
----
+
 
 #  6️ Processo de ETL (Extract, Transform, Load)
 
@@ -131,7 +131,7 @@ Essas transformações serão realizadas utilizando a linguagem **Python** e a b
 
 Após o tratamento, os dados serão armazenados em um banco de dados **SQLite** ou em arquivos **Parquet**, permitindo consultas analíticas mais eficientes.
 
----
+
 
 # 7️ Ideia Inicial do Dashboard
 
@@ -161,7 +161,7 @@ O dashboard será estruturado como uma ferramenta de **Business Intelligence**, 
 * produtos com maior faturamento
 * impacto de fotos e descrição nas vendas
 
----
+
 
 # 8️ Métricas do Dashboard
 
@@ -175,13 +175,13 @@ Principais indicadores de desempenho (KPIs):
 * vendas por região
 * vendas por categoria
 
----
+
 
 #  Estrutura do Repositório GitHub
 
 O projeto seguirá uma organização profissional de repositório voltada para **projetos de ciência de dados e análise de dados**.
 
-```
+
 projeto-integrador-lowcode/
 
 README.md
@@ -189,8 +189,7 @@ README.md
 data/
 ├ raw/
 │ dados brutos do Kaggle
-│
-├ processed/
+│ olist.db
 │ dados tratados após ETL
 
 etl/
@@ -198,26 +197,12 @@ etl/
 ├ transform.py
 └ load.py
 
-notebooks/
-├ 01_exploracao_dados.ipynb
-├ 02_limpeza_dados.ipynb
-└ 03_analise_dados.ipynb
+app/
+├ dashboard
+├ 
+└ 
 
-database/
-├ olist.db
-└ schema.sql
 
-dashboard/
-├ app.py
-└ components/
-
-docs/
-├ modelo_er.png
-├ arquitetura_etl.png
-└ dicionario_dados.md
-
-requirements.txt
-.gitignore
 ```
 
 ---
@@ -226,7 +211,6 @@ requirements.txt
 
 * Python
 * Pandas
-* SQLite
 * Kaggle Dataset
 * Streamlit
 * GitHub
