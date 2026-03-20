@@ -181,26 +181,24 @@ Principais indicadores de desempenho (KPIs):
 
 O projeto seguirá uma organização profissional de repositório voltada para **projetos de ciência de dados e análise de dados**.
 
-
 projeto-integrador-lowcode/
 
 README.md
 
 data/
-├ raw/
 │ dados brutos do Kaggle
 │ olist.db
 │ dados tratados após ETL
 
-etl/
-├ extract.py
-├ transform.py
-└ load.py
+|etl/
+|extract.py
+|transform.py
+|load.py
 
 app/
-├ dashboard
-├ 
-└ 
+|dashboard
+ 
+ 
 
 
 #  Tecnologias Utilizadas
@@ -211,7 +209,6 @@ app/
 * Streamlit
 * GitHub
 
----
 
 #  Resultados Esperados
 
