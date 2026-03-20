@@ -73,10 +73,12 @@ As responsabilidades do projeto foram distribuídas entre os integrantes da segu
 
 ### Luis Augusto de Sousa Dias
 
+Responsável pela **organização do README**, garantindo a documentação adequada do projeto.
 Responsável pela **criação e organização do repositório no GitHub**, incluindo a estrutura inicial do projeto e controle de versões.
 
 ### Juliana Alves Cabral
 
+Responsável pela **organização do README**, garantindo a documentação adequada do projeto.
 Responsável pela **definição da base de dados e contextualização do projeto**, incluindo a descrição da origem e objetivo da análise.
 
 ### Guilherme Silva Alves do Nascimento
@@ -86,10 +88,6 @@ Responsável pelo **planejamento do processo de ETL**, definindo como os dados s
 ### Matheus de Oliveira Temistocles
 
 Responsável pelo **planejamento do dashboard**, definindo as métricas, indicadores e visualizações a serem apresentadas.
-
-### Pedro Henrique Ferraz Ferreira
-
-Responsável pela **organização do README e planejamento geral das tarefas**, garantindo a documentação adequada do projeto.
 
 
 
