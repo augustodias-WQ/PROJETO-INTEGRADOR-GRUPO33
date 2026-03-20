@@ -203,10 +203,6 @@ app/
 └ 
 
 
-```
-
----
-
 #  Tecnologias Utilizadas
 
 * Python
