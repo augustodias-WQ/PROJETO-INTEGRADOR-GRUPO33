@@ -72,13 +72,11 @@ As responsabilidades do projeto foram distribuídas entre os integrantes da segu
 
 ### Luis Augusto de Sousa Dias
 
-Responsável pela **organização do README**, garantindo a documentação adequada do projeto.
-Responsável pela **criação e organização do repositório no GitHub**, incluindo a estrutura inicial do projeto e controle de versões.
+Responsável pela **organização do README**, garantindo a documentação adequada do projeto. e pela **criação e organização do repositório no GitHub**, incluindo a estrutura inicial do projeto e controle de versões.
 
 ### Juliana Alves Cabral
 
-Responsável pela **organização do README**, garantindo a documentação adequada do projeto.
-Responsável pela **definição da base de dados e contextualização do projeto**, incluindo a descrição da origem e objetivo da análise.
+Responsável pela **organização do README**, garantindo a documentação adequada do projeto.e pela **definição da base de dados e contextualização do projeto**, incluindo a descrição da origem e objetivo da análise.
 
 ### Guilherme Silva Alves do Nascimento
 
