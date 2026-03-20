@@ -1,7 +1,7 @@
 # PROJETO-INTEGRADOR-GRUPO33
-# 📊 Projeto Integrador — Low Code em Ciência de Dados
+#  Projeto Integrador — Low Code em Ciência de Dados
 
-## 📌 Tema do Projeto
+##  Tema do Projeto
 
 Análise de desempenho de vendas em um e-commerce utilizando técnicas de **Ciência de Dados e ferramentas Low Code**, com o objetivo de gerar **insights estratégicos por meio de visualizações em um dashboard interativo**.
 
@@ -9,7 +9,7 @@ O projeto utiliza a base **Brazilian E-Commerce Public Dataset by Olist**, compo
 
 ---
 
-# 👥 1️⃣ Integrantes do Grupo
+#  1️ Integrantes do Grupo
 
 * **Juliana Alves Cabral**
 * **Luis Augusto de Sousa Dias**
@@ -19,7 +19,7 @@ O projeto utiliza a base **Brazilian E-Commerce Public Dataset by Olist**, compo
 
 ---
 
-# 🗂 2️⃣ Definição da Base de Dados
+#  2️ Definição da Base de Dados
 
 ## Base de Dados Selecionada
 
@@ -50,7 +50,7 @@ Essas informações permitem analisar **comportamento de consumo, desempenho de 
 
 ---
 
-# 🎯 3️⃣ Objetivo da Análise
+#  3️ Objetivo da Análise
 
 O objetivo deste projeto é aplicar ferramentas **Low Code voltadas à ciência de dados** para analisar o desempenho de vendas de um e-commerce e gerar **insights estratégicos por meio de visualizações em dashboards**.
 
@@ -67,7 +67,7 @@ O resultado final será um **dashboard interativo** que permitirá visualizar as
 
 ---
 
-# 🧩 4️⃣ Planejamento das Tarefas
+#  4️ Planejamento das Tarefas
 
 As responsabilidades do projeto foram distribuídas entre os integrantes da seguinte forma:
 
@@ -93,7 +93,7 @@ Responsável pela **organização do README e planejamento geral das tarefas**, 
 
 ---
 
-# 📅 5️⃣ Cronograma de Desenvolvimento
+#  5️ Cronograma de Desenvolvimento
 
 | Etapa    | Atividade                           |
 | -------- | ----------------------------------- |
@@ -106,7 +106,7 @@ Responsável pela **organização do README e planejamento geral das tarefas**, 
 
 ---
 
-# ⚙️ 6️⃣ Processo de ETL (Extract, Transform, Load)
+#  6️ Processo de ETL (Extract, Transform, Load)
 
 Para preparação dos dados será utilizado um pipeline de **ETL**, composto por três etapas principais.
 
@@ -133,7 +133,7 @@ Após o tratamento, os dados serão armazenados em um banco de dados **SQLite** 
 
 ---
 
-# 📊 7️⃣ Ideia Inicial do Dashboard
+# 7️ Ideia Inicial do Dashboard
 
 O dashboard será estruturado como uma ferramenta de **Business Intelligence**, permitindo análise em diferentes dimensões do negócio.
 
@@ -163,7 +163,7 @@ O dashboard será estruturado como uma ferramenta de **Business Intelligence**, 
 
 ---
 
-# 📈 8️⃣ Métricas do Dashboard
+# 8️ Métricas do Dashboard
 
 Principais indicadores de desempenho (KPIs):
 
@@ -177,7 +177,7 @@ Principais indicadores de desempenho (KPIs):
 
 ---
 
-# 📂 Estrutura do Repositório GitHub
+#  Estrutura do Repositório GitHub
 
 O projeto seguirá uma organização profissional de repositório voltada para **projetos de ciência de dados e análise de dados**.
 
@@ -222,7 +222,7 @@ requirements.txt
 
 ---
 
-# 🧰 Tecnologias Utilizadas
+#  Tecnologias Utilizadas
 
 * Python
 * Pandas
@@ -233,7 +233,7 @@ requirements.txt
 
 ---
 
-# 📊 Resultados Esperados
+#  Resultados Esperados
 
 Com a análise dos dados e o desenvolvimento do dashboard, espera-se:
 
