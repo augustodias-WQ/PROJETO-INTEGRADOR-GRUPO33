@@ -182,8 +182,6 @@ README.md
 
 * data/
 │ dados brutos do Kaggle
-│ olist_analitico.db
-│ dados tratados após ETL
 
 * etl/
 |extract.py
