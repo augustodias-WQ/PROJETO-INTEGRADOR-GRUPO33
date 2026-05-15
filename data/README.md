@@ -39,13 +39,11 @@ O objetivo do projeto é explorar os dados de vendas do e‑commerce para gerar 
 
 data/
     Arquivos CSV do dataset
-
-sql/
-    Script para criação das tabelas no banco de dados
-
-python/
+    
+output/ 
+    banco de dados
+    
+main.py
     Script Python para importar os dados
 
-docs/
-    Modelo de banco de dados (ER Diagram)
 
