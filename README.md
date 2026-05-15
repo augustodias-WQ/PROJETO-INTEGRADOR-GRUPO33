@@ -182,7 +182,7 @@ README.md
 
 * data/
 │ dados brutos do Kaggle
-│ olist.db
+│ olist_analitico.db
 │ dados tratados após ETL
 
 * etl/
