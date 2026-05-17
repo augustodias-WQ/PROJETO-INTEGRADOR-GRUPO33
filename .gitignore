@@ -1,4 +1,2 @@
 venv/
 dados_brutos/
-dados_processados/
-*.db
