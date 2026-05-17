@@ -17,7 +17,7 @@ st.markdown("""
     <style>
     .main { background-color: #f8f9fa; }
     
-    /* Configuração do cartão principal */
+    /* Configuração do contêiner do cartão */
     div[data-testid="stMetric"] {
         background-color: #ffffff !important;
         padding: 15px 20px;
@@ -26,14 +26,14 @@ st.markdown("""
         border: 1px solid #e9ecef;
     }
     
-    /* Forçar o número grande de Valor a ficar azul escuro/preto */
-    div[data-testid="stMetricValue"] {
-        color: #0f172a !important;
+    /* Força tudo dentro do card a ficar cinza escuro */
+    div[data-testid="stMetric"] * {
+        color: #475569 !important;
     }
     
-    /* Forçar o título pequeno do Rótulo e qualquer sub-elemento dele a ficar cinza escuro */
-    div[data-testid="stMetricLabel"], div[data-testid="stMetricLabel"] * {
-        color: #475569 !important;
+    /* Abre uma exceção específica para o valor numérico grande ficar bem escuro */
+    div[data-testid="stMetricValue"], div[data-testid="stMetricValue"] * {
+        color: #0f172a !important;
     }
     </style>
     """, unsafe_allow_html=True)
