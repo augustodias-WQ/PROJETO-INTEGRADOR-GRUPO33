@@ -26,13 +26,13 @@ st.markdown("""
         border: 1px solid #e9ecef;
     }
     
-    /* Forçar o número grande (Valor) a ficar azul escuro/preto */
+    /* Forçar o número grande de Valor a ficar azul escuro/preto */
     div[data-testid="stMetricValue"] {
         color: #0f172a !important;
     }
     
-    /* Forçar o título pequeno (Rótulo) a ficar cinza escuro */
-    div[data-testid="stMetricLabel"] p {
+    /* Forçar o título pequeno do Rótulo e qualquer sub-elemento dele a ficar cinza escuro */
+    div[data-testid="stMetricLabel"], div[data-testid="stMetricLabel"] * {
         color: #475569 !important;
     }
     </style>
