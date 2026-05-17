@@ -16,12 +16,24 @@ st.set_page_config(
 st.markdown("""
     <style>
     .main { background-color: #f8f9fa; }
+    
+    /* Configuração do cartão principal */
     div[data-testid="stMetric"] {
-        background-color: #ffffff;
+        background-color: #ffffff !important;
         padding: 15px 20px;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.05);
         border: 1px solid #e9ecef;
+    }
+    
+    /* Forçar o número grande (Valor) a ficar azul escuro/preto */
+    div[data-testid="stMetricValue"] {
+        color: #0f172a !important;
+    }
+    
+    /* Forçar o título pequeno (Rótulo) a ficar cinza escuro */
+    div[data-testid="stMetricLabel"] p {
+        color: #475569 !important;
     }
     </style>
     """, unsafe_allow_html=True)
