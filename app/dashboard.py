@@ -30,7 +30,8 @@ st.markdown("""
 @st.cache_data
 def load_data():
     # Caminho configurado com base no script de ETL (pasta output)
-    db_path = os.path.join('output', 'olist_analitico.db')
+    caminho_do_script = os.path.dirname(os.path.abspath(__file__))
+    db_path = os.path.abspath(os.path.join(caminho_do_script, '..', 'output', 'olist_analitico.db'))
     
     if not os.path.exists(db_path):
         st.error(f"Banco de dados não localizado em: {db_path}. Execute o script de ETL primeiro.")
