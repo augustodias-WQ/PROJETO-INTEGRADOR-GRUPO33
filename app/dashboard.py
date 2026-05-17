@@ -185,17 +185,22 @@ else:
             st.plotly_chart(fig_barra_uf, use_container_width=True)
                 
         with c4:
-            # Cruzamento entre a nota de avaliação e o tempo real que a entrega levou
-            if 'review_score' in df_filtrado.columns:
-                satisfacao_entrega = df_filtrado.groupby('review_score')['dias_entrega_real'].mean().reset_index()
-                
-                fig_SLA = px.bar(
-                    satisfacao_entrega, x='review_score', y='dias_entrega_real',
-                    title="Tempo Médio Real de Entrega (Dias) vs. Nota de Satisfação",
-                    labels={'review_score': 'Nota de Avaliação (Review)', 'dias_entrega_real': 'Média de Dias Conclusão'},
-                    template="plotly_white", color='dias_entrega_real', color_continuous_scale='Reds'
-                )
-                st.plotly_chart(fig_SLA, use_container_width=True)
+            # Agrupando os dados para tirar a média de dias reais de entrega por estado
+            df_prazo_estado = df_filtrado.groupby('customer_state')['dias_entrega_real'].mean().reset_index()
+            df_prazo_estado = df_prazo_estado.sort_values('dias_entrega_real', ascending=False)
+        
+        # Segundo gráfico de tempo de entrega
+            fig_SLA = px.bar(
+                df_prazo_estado,
+                x='customer_state',
+                y='dias_entrega_real',
+                title="Tempo Médio Real de Entrega (Dias) por Estado (UF)",
+                labels={'customer_state': 'Estado (UF)', 'dias_entrega_real': 'Média de Dias'},
+                template="plotly_white",
+                color='dias_entrega_real',
+                color_continuous_scale='Reds'
+            )
+            st.plotly_chart(fig_SLA, use_container_width=True)
 
     # --- ABA 3: ANÁLISE DE PRODUTOS ---
     with tab_produtos:
