@@ -207,7 +207,7 @@ README.md
 |dashboard
 
 * dados_processados/
-|olist_estruturado.db
+| olist_estruturado.db
 
 * data/
 │ dados brutos do Kaggle
