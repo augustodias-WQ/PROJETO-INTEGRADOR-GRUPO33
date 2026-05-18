@@ -103,7 +103,7 @@ Responsável pela arquitetura do repositório, governança, estruturação de pa
 
 ### Guilherme Silva Alves do Nascimento
 
-Responsável pela configuração do ambiente de produção, mapeamento das dependências do sistema através do ficheiro `requirements.txt` e realização do deploy da aplicação na nuvem utilizando o Streamlit Cloud.
+Responsável pela configuração do ambiente de produção, mapeamento das dependências do sistema através do ficheiro `requirements.txt` e realização do deploy da aplicação na nuvem utilizando o Streamlit Cloud (Critério: *Publicação da solução em nuvem*).
 
 
 ### Matheus de Oliveira Temistocles
