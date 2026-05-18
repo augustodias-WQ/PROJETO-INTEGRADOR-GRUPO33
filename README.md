@@ -74,41 +74,41 @@ As responsabilidades do projeto foram distribuídas entre os integrantes da segu
 
 ### Luis Augusto de Sousa Dias
 
-Responsável pela **organização do README**, garantindo a documentação adequada do projeto e pela **criação e organização do repositório no GitHub**, incluindo a estrutura inicial do projeto e controle de versões.
+* Responsável pela **organização do README**, garantindo a documentação adequada do projeto e pela **criação e organização do repositório no GitHub**, incluindo a estrutura inicial do projeto e controle de versões.
 
 ### Juliana Alves Cabral
 
-Responsável pela **organização do README**, garantindo a documentação adequada do projeto e pela **definição da base de dados e contextualização do projeto**, incluindo a descrição da origem e objetivo da análise.
+* Responsável pela **organização do README**, garantindo a documentação adequada do projeto e pela **definição da base de dados e contextualização do projeto**, incluindo a descrição da origem e objetivo da análise.
 
 ### Guilherme Silva Alves do Nascimento
 
-Responsável pelo **planejamento do processo de ETL**, definindo como os dados serão extraídos, transformados e carregados para análise.
+* Responsável pelo **planejamento do processo de ETL**, definindo como os dados serão extraídos, transformados e carregados para análise.
 
 ### Matheus de Oliveira Temistocles
 
-Responsável pelo **planejamento do dashboard**, definindo as métricas, indicadores e visualizações a serem apresentadas.
+* Responsável pelo **planejamento do dashboard**, definindo as métricas, indicadores e visualizações a serem apresentadas.
 
 ## 2º Entrega
 
 ### Luis Augusto de Sousa Dias
 
-Responsável pela extração, limpeza, tratamento e modelação dos dados brutos. Desenvolvimento dos scripts em Python para tratamento de valores nulos, conversão de formatos e otimização dos dados para consumo (Critério: *Transformações de dados realizadas*).
+* Responsável pela extração, limpeza, tratamento e modelação dos dados brutos. Desenvolvimento dos scripts em Python para tratamento de valores nulos, conversão de formatos e otimização dos dados para consumo (Critério: *Transformações de dados realizadas*).
 
 
 
 ### Juliana Alves Cabral
 
-Responsável pela arquitetura do repositório, governança, estruturação de pastas, criação e documentação do ficheiro `README.md`, além do controle de atividades (uso de *Issues* ou *GitHub Projects*) para garantir os critérios de gestão e colaboração em equipa (Critério: *Projeto gerenciado no GitHub*).
+* Responsável pela arquitetura do repositório, governança, estruturação de pastas, criação e documentação do ficheiro `README.md`,  para garantir os critérios de gestão e colaboração em equipa (Critério: *Projeto gerenciado no GitHub*).
 
 
 ### Guilherme Silva Alves do Nascimento
 
-Responsável pela configuração do ambiente de produção, mapeamento das dependências do sistema através do ficheiro `requirements.txt` e realização do deploy da aplicação na nuvem utilizando o Streamlit Cloud (Critério: *Publicação da solução em nuvem*).
+* Responsável pela configuração do ambiente de produção, mapeamento das dependências do sistema através do ficheiro `requirements.txt` e realização do deploy da aplicação na nuvem utilizando o Streamlit Cloud (Critério: *Publicação da solução em nuvem*).
 
 
 ### Matheus de Oliveira Temistocles
 
-Responsável pela criação da interface gráfica, definição de indicadores-chave de performance (KPIs), desenvolvimento de gráficos interativos e estruturação lógica de exibição dos dados coletados (Critério: *Visualizações e métricas no Dashboard*).
+* Responsável pela criação da interface gráfica, definição de indicadores-chave de performance (KPIs), desenvolvimento de gráficos interativos e estruturação lógica de exibição dos dados coletados (Critério: *Visualizações e métricas no Dashboard*).
 
 
 #  5️ Cronograma de Desenvolvimento
