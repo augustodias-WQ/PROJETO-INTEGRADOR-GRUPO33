@@ -70,6 +70,8 @@ O resultado final será um **dashboard interativo** que permitirá visualizar as
 
 As responsabilidades do projeto foram distribuídas entre os integrantes da seguinte forma:
 
+## 1º Entrega
+
 ### Luis Augusto de Sousa Dias
 
 Responsável pela **organização do README**, garantindo a documentação adequada do projeto e pela **criação e organização do repositório no GitHub**, incluindo a estrutura inicial do projeto e controle de versões.
@@ -85,6 +87,22 @@ Responsável pelo **planejamento do processo de ETL**, definindo como os dados s
 ### Matheus de Oliveira Temistocles
 
 Responsável pelo **planejamento do dashboard**, definindo as métricas, indicadores e visualizações a serem apresentadas.
+
+## 2º Entrega
+
+### Luis Augusto de Sousa Dias
+
+
+
+### Juliana Alves Cabral
+
+
+
+### Guilherme Silva Alves do Nascimento
+
+
+
+### Matheus de Oliveira Temistocles
 
 
 
