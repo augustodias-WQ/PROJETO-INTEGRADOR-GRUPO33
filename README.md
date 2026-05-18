@@ -92,18 +92,23 @@ Responsável pelo **planejamento do dashboard**, definindo as métricas, indicad
 
 ### Luis Augusto de Sousa Dias
 
+Responsável pela extração, limpeza, tratamento e modelação dos dados brutos. Desenvolvimento dos scripts em Python para tratamento de valores nulos, conversão de formatos e otimização dos dados para consumo (Critério: *Transformações de dados realizadas*).
+
 
 
 ### Juliana Alves Cabral
 
+Responsável pela arquitetura do repositório, governança, estruturação de pastas, criação e documentação do ficheiro `README.md`, além do controle de atividades (uso de *Issues* ou *GitHub Projects*) para garantir os critérios de gestão e colaboração em equipa (Critério: *Projeto gerenciado no GitHub*).
 
 
 ### Guilherme Silva Alves do Nascimento
 
+Responsável pela configuração do ambiente de produção, mapeamento das dependências do sistema através do ficheiro `requirements.txt` e realização do deploy da aplicação na nuvem utilizando o Streamlit Cloud.
 
 
 ### Matheus de Oliveira Temistocles
 
+Responsável pela criação da interface gráfica, definição de indicadores-chave de performance (KPIs), desenvolvimento de gráficos interativos e estruturação lógica de exibição dos dados coletados (Critério: *Visualizações e métricas no Dashboard*).
 
 
 #  5️ Cronograma de Desenvolvimento
