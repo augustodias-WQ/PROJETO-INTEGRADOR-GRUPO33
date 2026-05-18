@@ -203,16 +203,22 @@ projeto-integrador-lowcode/
 
 README.md
 
+* app/
+|dashboard
+
+* dados_processados/
+|olist_estruturado.db
+
 * data/
 │ dados brutos do Kaggle
 
-* etl/
-|extract.py
-|transform.py
-|load.py
+* output/
+│ olist_estruturado.db
 
-* app/
-|dashboard
+* src/
+|etl.py
+
+
  
  
 
