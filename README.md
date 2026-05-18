@@ -213,7 +213,7 @@ README.md
 │ dados brutos do Kaggle
 
 * output/
-│ olist_estruturado.db
+│ olist_analitico.db
 
 * src/
 |etl.py
